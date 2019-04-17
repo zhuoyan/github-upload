@@ -1,0 +1,66 @@
+a {
+  text-decoration: none;
+}
+
+.quote-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.quote-panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 3px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.quote-text {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.quote-text span {
+  font-size: 26px;
+}
+
+.quote-author {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.button-group .button {
+  padding: 5px 10px;
+  min-width: 35px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  transparent: 0.3s;
+}
+.button-group .button:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.copyright {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
